@@ -1,0 +1,157 @@
+.content1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.autum-about{
+
+  height: 300px;
+  background-color: white;
+  margin-bottom: 80px;
+  display: flex;
+  margin-left: -30px;
+}
+.text{
+  flex: 1.5; 
+  display: flex;
+  flex-direction: column;
+ ;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  flex: 1 4;
+  width: 100%;
+  height: 50px;
+  background-color: #114544;
+}
+.about1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.about2{
+  font-family: 'Lexend Mega', sans-serif;
+  font-size: 16px;
+   margin-left: 50px;
+  color: rgba(0, 0, 0, 0.701);
+  font-weight: 100;
+}
+.about-img{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-bg{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 30%;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+ z-index: 4;
+
+}
+.white-bg1{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+ left: -20px;
+  right: 60%;
+  background-color: rgb(255, 255, 255);
+ z-index: 4;
+}
+.text-about{
+  height: 50px;
+ 
+z-index: 6;
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 8.8%;
+
+ 
+  font-size: 50px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.text-about1{
+  height: 50px;
+ 
+z-index: 6;
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 30.5%;
+ 
+ 
+  font-size: 50px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.about3{
+  display: flex;
+ 
+flex-direction: column;
+  font-family: 'Lexend Mega', sans-serif;
+  font-size: 16px;
+
+  font-weight: 100;
+  color: rgba(3, 3, 3, 0.756);
+
+}
+.about-title {
+  font-family: 'Lexend Mega', sans-serif;
+  font-size: 20px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.about-desc {
+  font-family: 'Lexend Mega', sans-serif;
+  font-size: 16px;
+  color: rgba(3, 3, 3, 0.756);
+  font-weight: 100;
+  
+}
+.logo-about{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+  width: 100%;
+  margin-top: 40px;
+
+}
+.about-flex{
+  flex: 2;
+  margin-left: 40px;
+}
+.logo-big{
+  flex: 1;
+
+margin-inline: 40px;
+height:250px;
+
+
+}
+.diagram-info{
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+
+  
+}
+.info{
+  flex: 3;
+  margin: 30px;
+}
+.diagram{
+  flex: 2;
+  padding-left: 100px;
+  
+} 

@@ -1,0 +1,170 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+.main-content
+{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: #114544;
+ 
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  flex: 1 4;
+  width: 100%;
+  height: 50px;
+  background-color: #114544;
+}
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 100vh;
+  width: 100px;
+  background-color: #ffffff;
+
+  transition: transform 0.3s ease-in-out; /* smooth slide */
+  z-index: 100;
+}
+
+
+.sidebar-data{
+  margin: 30px;
+}
+.hamburger{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+ 
+.social-media-icons1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+.s-icon{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container{
+  margin-left: 8.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 96%;
+ padding-top: 20px;
+
+}
+
+.content{
+  display: flex;
+ flex-direction: row;
+justify-content: start;
+  width: 100%;
+  height: 100%;
+  
+}
+.autum-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.logo-text{
+  margin-left: -12px;
+  margin-top: -5px;
+}
+.open{
+  width: 250px;
+}
+.open{
+  border-bottom: 2px solid #114544;
+}
+.s1{
+  justify-content: baseline;
+  align-items: baseline;
+ 
+}
+.s{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+
+}
+.s-handels{flex: 2;
+  display: none;
+  font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+  font-size: 13px;
+  margin-left: 10px;
+  padding-top: 6px;
+  color: #11454499;
+}
+.s-handels-open{
+  display: flex;
+  flex-direction: row;
+}
+.big-text{
+  font-family:  'Megrim';
+  font-size: 86px;
+  text-shadow: 10px 4px 4px rgba(1, 13, 16, 0.789);
+  width: 100%;
+
+  padding-top: 15%;
+   
+}
+.text-btn{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  width: 65%;
+  
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid; /* required for border-image to work */
+  border-image: linear-gradient(to right, #c2c3c3a4,#626363b5,#8f9292, #4f4f4f);
+  border-image-slice: 1; /* important! this tells the browser how to slice the image */
+  color: rgba(206, 205, 205, 0.906);
+
+  padding: 20px 30px;
+  width: 250px; 
+
+  margin-right: 240px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family:'Montserrat',cursive;
+  font-weight: 400;
+  transition: color 0.5s ease, border-image 0.5s ease, opacity 0.1s ease;
+  cursor: pointer;
+}
+.btn:hover{
+  
+  color: rgba(2, 16, 4, 0.486);
+  border-image: linear-gradient(to right,#5e6161, #201f1f,#212222,#5e6161, #6b6b6e);
+  border-image-slice: 1;
+  background: linear-gradient(to right, #bcb7b768,#b4bbbb62,#a1abab65, #6b6b6e65);
+}
+
+.content-image{
+  position: fixed;
+  bottom: -4px;
+  right: 0;
+  
+}

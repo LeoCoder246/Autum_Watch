@@ -1,0 +1,119 @@
+.container{
+
+}
+.content1{
+  display: flex;  
+  flex-direction: column;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+}
+.background-white{
+  background-color: white;
+  height: 77.7vh;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.cart-list-summary{
+  display: grid;
+  grid-template-columns: 1.9fr 1fr;
+  height: 100%;
+  width: 100%;
+ 
+}
+.cart-list{
+  height: 99%;
+  width: 98%;
+  background-color: rgba(226, 227, 223, 0.746);
+  margin-left: 6px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.summary{
+  height: 99%;
+  width: 99%;
+  background-color: rgba(226, 227, 223, 0.746);
+  margin-right: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item{
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  height: 115px;
+  margin:20px 20px 0px 20px;
+  border-radius: 6px;
+}
+.summary-back{
+  background-color: white;
+  margin-inline: 10px;
+  margin-bottom: 6px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+
+}
+.place-order-btn{
+  background-color: #d8b504;
+  color: rgb(1, 22, 9);
+  margin-inline: 50px;
+  margin-bottom: 6px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.summary-data{
+  display: flex;
+  flex-direction: column;
+  border-bottom:1px #d8b504 dotted;
+}
+.price-grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-inline: 20px;
+  margin-block: 7px;
+}
+.summary-data1{
+  display: flex;
+  flex-direction: column;
+  border-bottom:1px #d8b504 dotted;
+}
+.summary-pay-method{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-inline: 20px;
+  margin-block: 7px;
+}
+.summary-cod{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-inline: 20px;
+  margin-block: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.summary-cod1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-inline: 20px;
+  margin-block: 7px;
+}
