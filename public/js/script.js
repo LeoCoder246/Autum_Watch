@@ -6,7 +6,7 @@ document.querySelector(".hamburger").addEventListener("click", () => {
   });
   if (document.querySelector(".sidebar").classList.contains("open")) {
   let generateHTML = 
-  `  <a href="/views/home.html" style="width: 100%;text-decoration: none;">
+  `  <a href="/views/index.html" style="width: 100%;text-decoration: none;">
      <div class="nav-data">
           Home
         </div>
@@ -33,7 +33,7 @@ document.querySelector(".hamburger").addEventListener("click", () => {
     
     if (document.querySelector(".sidebar").classList.contains("open")) {
       let generateHTML = 
-      `  <a href="/views/home.html" style="width: 100%;text-decoration: none;">
+      `  <a href="/views/index.html" style="width: 100%;text-decoration: none;">
          <div class="nav-data">
               Home
             </div>
